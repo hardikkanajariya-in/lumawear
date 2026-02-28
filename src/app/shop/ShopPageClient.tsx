@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { SlidersHorizontal, Search, Grid3X3, List, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useDebounce } from "@/hooks";
@@ -19,21 +20,42 @@ interface ShopPageClientProps {
 }
 
 export function ShopPageClient({ products, categories }: ShopPageClientProps) {
+  const searchParams = useSearchParams();
+
+  // Read URL params for initial state
+  const initialCategory = searchParams.get("category");
+  const initialSort = (searchParams.get("sort") as SortOption) || "featured";
+  const initialSale = searchParams.get("sale") === "true";
+  const initialBadge = searchParams.get("badge");
+
   const [search, setSearch] = useState("");
   const debouncedSearch = useDebounce(search, 300);
-  const [sort, setSort] = useState<SortOption>("featured");
+  const [sort, setSort] = useState<SortOption>(initialSort);
   const [view, setView] = useState<"grid" | "list">("grid");
   const [page, setPage] = useState(1);
   const [filterOpen, setFilterOpen] = useState(false);
   const isMobile = useMediaQuery("(max-width: 768px)");
 
   const [filters, setFilters] = useState<FilterState>({
-    categories: [],
+    categories: initialCategory ? [initialCategory] : [],
     colors: [],
     sizes: [],
     priceRange: [0, Infinity],
     rating: null,
   });
+
+  // Sync filters when URL params change
+  useEffect(() => {
+    const cat = searchParams.get("category");
+    const sortParam = searchParams.get("sort") as SortOption | null;
+    if (cat) {
+      setFilters((prev) => ({ ...prev, categories: [cat] }));
+    }
+    if (sortParam) {
+      setSort(sortParam);
+    }
+    setPage(1);
+  }, [searchParams]);
 
   // Extract unique colors from products
   const allColors = useMemo(() => {
@@ -96,6 +118,18 @@ export function ShopPageClient({ products, categories }: ShopPageClientProps) {
       result = result.filter((p) => p.rating >= filters.rating!);
     }
 
+    // Sale filter (from URL param)
+    if (initialSale) {
+      result = result.filter((p) => p.compareAtPrice !== null);
+    }
+
+    // Badge filter (from URL param)
+    if (initialBadge) {
+      result = result.filter((p) =>
+        p.badges.some((b) => b.toLowerCase() === initialBadge.toLowerCase())
+      );
+    }
+
     // Sort
     switch (sort) {
       case "price-low":
@@ -119,7 +153,7 @@ export function ShopPageClient({ products, categories }: ShopPageClientProps) {
     }
 
     return result;
-  }, [products, debouncedSearch, filters, sort]);
+  }, [products, debouncedSearch, filters, sort, initialSale, initialBadge]);
 
   const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
   const paginatedProducts = filteredProducts.slice(

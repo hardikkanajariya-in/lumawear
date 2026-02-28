@@ -4,8 +4,8 @@
   "description": "LumaWear is a premium fashion brand dedicated to minimal, intentional design. We craft modern essentials that transcend seasons and trends.",
   "navItems": [
     { "label": "New", "href": "/shop?sort=newest" },
-    { "label": "Women", "href": "/shop?category=women" },
-    { "label": "Men", "href": "/shop?category=men" },
+    { "label": "Tops", "href": "/shop?category=tops" },
+    { "label": "Outerwear", "href": "/shop?category=outerwear" },
     { "label": "Collections", "href": "/collections/summer-essentials" },
     { "label": "Sale", "href": "/shop?sale=true" }
   ],
@@ -34,8 +34,8 @@
       "title": "Company",
       "links": [
         { "label": "About Us", "href": "/about" },
-        { "label": "Sustainability", "href": "/about" },
-        { "label": "Careers", "href": "/about" },
+        { "label": "Sustainability", "href": "/about#sustainability" },
+        { "label": "Careers", "href": "/about#careers" },
         { "label": "Privacy Policy", "href": "/privacy" },
         { "label": "Terms of Service", "href": "/terms" }
       ]
@@ -48,6 +48,6 @@
     { "platform": "Pinterest", "url": "https://pinterest.com/lumawear" }
   ],
   "announcementText": "Free shipping on orders over $99 — Shop Now",
-  "creditText": "Created by",
+  "creditText": "Hardik Kanajariya",
   "creditUrl": "https://hardikkanajariya.in"
 }
