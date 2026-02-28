@@ -45,7 +45,7 @@ export function Footer({
             {/* Social Links */}
             <div className="mt-6 flex items-center gap-3">
               {socials.map((social) => {
-                const Icon = socialIcons[social.platform] || ExternalLink;
+                const Icon = socialIcons[social.platform.toLowerCase()] || ExternalLink;
                 return (
                   <a
                     key={social.platform}

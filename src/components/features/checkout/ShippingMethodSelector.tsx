@@ -73,7 +73,7 @@ export function ShippingMethodSelector({
                     {method.name}
                   </p>
                   <p className="text-sm text-stone-500 dark:text-stone-400">
-                    {method.estimate}
+                    {method.estimatedDays}
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export function ShippingMethodSelector({
       </div>
 
       <div className="flex items-center gap-3 pt-4">
-        <Button type="button" variant="outline" onClick={onBack}>
+        <Button type="button" variant="secondary" onClick={onBack}>
           Back
         </Button>
         <Button type="submit" size="lg">
