@@ -34,12 +34,12 @@
     "collectionSlugs": ["summer-essentials"],
     "colors": [
       { "name": "Red", "hex": "#DC2626", "imageId": "photo-1542291026-7eec264c27ff" },
-      { "name": "White", "hex": "#FFFFFF", "imageId": "photo-1600269112105-5c2c1c06eb8b" }
+      { "name": "White", "hex": "#FFFFFF", "imageId": "photo-1460353581641-37baddab0fa2" }
     ],
     "sizes": ["7", "8", "9", "10", "11", "12"],
     "rating": 4.6,
     "reviewCount": 89,
-    "images": ["photo-1542291026-7eec264c27ff", "photo-1600269112105-5c2c1c06eb8b"],
+    "images": ["photo-1542291026-7eec264c27ff", "photo-1460353581641-37baddab0fa2"],
     "badges": ["Sale"],
     "inStock": true
   },
@@ -211,12 +211,12 @@
     "category": "footwear",
     "collectionSlugs": ["minimal-essentials", "bestsellers"],
     "colors": [
-      { "name": "White", "hex": "#FFFFFF", "imageId": "photo-1600269112105-5c2c1c06eb8b" }
+      { "name": "White", "hex": "#FFFFFF", "imageId": "photo-1460353581641-37baddab0fa2" }
     ],
     "sizes": ["7", "8", "9", "10", "11", "12"],
     "rating": 4.9,
     "reviewCount": 182,
-    "images": ["photo-1600269112105-5c2c1c06eb8b"],
+    "images": ["photo-1460353581641-37baddab0fa2"],
     "badges": ["Bestseller"],
     "inStock": true
   },
@@ -232,13 +232,13 @@
     "category": "tops",
     "collectionSlugs": ["minimal-essentials"],
     "colors": [
-      { "name": "Camel", "hex": "#C19A6B", "imageId": "photo-1434389677669-e08b4cda3a70" },
-      { "name": "Heather Grey", "hex": "#9CA3AF", "imageId": "photo-1434389677669-e08b4cda3a70" }
+      { "name": "Camel", "hex": "#C19A6B", "imageId": "photo-1576566588028-4147f3842f27" },
+      { "name": "Heather Grey", "hex": "#9CA3AF", "imageId": "photo-1576566588028-4147f3842f27" }
     ],
     "sizes": ["S", "M", "L", "XL"],
     "rating": 4.8,
     "reviewCount": 67,
-    "images": ["photo-1434389677669-e08b4cda3a70"],
+    "images": ["photo-1576566588028-4147f3842f27"],
     "badges": ["New"],
     "inStock": true
   },

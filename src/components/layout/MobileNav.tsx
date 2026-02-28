@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { X, Heart, ShoppingBag, User, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -18,7 +18,8 @@ interface MobileNavProps {
 }
 
 export function MobileNav({ isOpen, onClose, navItems }: MobileNavProps) {
-  const trapRef = useFocusTrap(isOpen);
+  const trapRef = useRef<HTMLDivElement>(null);
+  useFocusTrap(trapRef, isOpen);
   const { wishlistCount } = useWishlist();
   const { cartCount } = useCart();
 

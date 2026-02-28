@@ -37,7 +37,7 @@ export function ReviewStep({
   onBack,
 }: ReviewStepProps) {
   const { items, cartTotal, discount } = useCart();
-  const discountAmount = discount ? cartTotal * discount : 0;
+  const discountAmount = discount ? cartTotal * discount.percentage : 0;
   const subtotal = cartTotal - discountAmount;
   const shipping = shippingMethod.price;
   const total = subtotal + shipping;
@@ -122,7 +122,7 @@ export function ReviewStep({
                   {item.color} / {item.size} &times; {item.quantity}
                 </p>
               </div>
-              <PriceTag price={item.price * item.quantity} size="sm" />
+              <PriceTag price={item.price * item.quantity} />
             </div>
           ))}
         </div>
@@ -137,7 +137,7 @@ export function ReviewStep({
         {discount ? (
           <div className="flex justify-between text-sm text-green-600">
             <span className="flex items-center gap-1">
-              <Check size={14} /> Discount ({(discount * 100).toFixed(0)}%)
+              <Check size={14} /> Discount ({(discount.percentage * 100).toFixed(0)}%)
             </span>
             <span>-{formatCurrency(discountAmount)}</span>
           </div>

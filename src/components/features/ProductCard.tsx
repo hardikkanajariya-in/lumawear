@@ -40,7 +40,6 @@ export function ProductCard({
     const firstSize = product.sizes[0];
 
     addItem({
-      id: `${product.id}-${firstColor.name}-${firstSize}`,
       productId: product.id,
       name: product.name,
       slug: product.slug,

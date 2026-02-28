@@ -13,7 +13,6 @@ import { PaymentForm } from "./PaymentForm";
 import { ReviewStep } from "./ReviewStep";
 import { OrderSummary } from "../OrderSummary";
 import { formatOrderNumber } from "@/lib/formatters";
-import { generateId } from "@/lib/utils";
 import type { ShippingMethod } from "@/lib/types";
 
 type Step = "information" | "shipping" | "payment" | "review";
@@ -70,7 +69,7 @@ export function CheckoutStepper() {
   };
 
   const handleConfirmOrder = () => {
-    setOrderId(formatOrderNumber(generateId()));
+    setOrderId(formatOrderNumber());
     setOrderComplete(true);
     clearCart();
     // generate confetti
@@ -171,7 +170,7 @@ export function CheckoutStepper() {
 
   return (
     <div className="space-y-8">
-      <CheckoutProgress currentStep={currentIndex} />
+      <CheckoutProgress currentStep={currentIndex} steps={["Information", "Shipping", "Payment", "Review"]} />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Main form area */}

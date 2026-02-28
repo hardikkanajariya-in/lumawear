@@ -65,7 +65,7 @@ export function HeroSection() {
             className="relative flex-1 w-full lg:h-full min-h-[50vh] lg:min-h-[80vh]"
           >
             <Image
-              src={unsplashUrl("1441986300917-64674bd600d8", 1200, 900)}
+              src={unsplashUrl("photo-1441984904996-e0b6ba687e04", 1200, 900)}
               alt="LumaWear fashion store interior showcasing minimal aesthetic"
               fill
               className="object-cover"

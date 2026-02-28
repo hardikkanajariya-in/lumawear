@@ -35,7 +35,7 @@ export function ErrorState({
         {message}
       </p>
       {onRetry && (
-        <Button variant="secondary" onClick={onRetry} icon={RefreshCw}>
+        <Button variant="secondary" onClick={onRetry} icon={<RefreshCw size={16} />}>
           Try Again
         </Button>
       )}

@@ -24,8 +24,8 @@ interface CartContextValue {
   cartTotal: number;
   isCartOpen: boolean;
   setIsCartOpen: (open: boolean) => void;
-  discount: number;
-  setDiscount: (discount: number) => void;
+  discount: { code: string; percentage: number } | null;
+  setDiscount: (discount: { code: string; percentage: number } | null) => void;
 }
 
 const CartContext = createContext<CartContextValue | undefined>(undefined);
@@ -50,7 +50,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
   const [savedItems, setSavedItems] = useState<SavedItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
-  const [discount, setDiscount] = useState(0);
+  const [discount, setDiscount] = useState<{ code: string; percentage: number } | null>(null);
   const [mounted, setMounted] = useState(false);
 
   // Load from localStorage on mount
@@ -109,7 +109,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const clearCart = useCallback(() => {
     setItems([]);
-    setDiscount(0);
+    setDiscount(null);
   }, []);
 
   const saveForLater = useCallback((id: string) => {

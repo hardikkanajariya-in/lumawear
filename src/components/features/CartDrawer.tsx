@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import { X, ShoppingBag, ArrowRight, Bookmark } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -26,14 +26,18 @@ export function CartDrawer() {
     cartCount,
     isCartOpen,
     setIsCartOpen,
-    discount,
-    setDiscount,
   } = useCart();
   const { showToast } = useToast();
-  const trapRef = useFocusTrap(isCartOpen);
+  const drawerRef = useRef<HTMLDivElement>(null);
+  useFocusTrap(drawerRef, isCartOpen);
 
-  const discountedTotal = discount
-    ? cartTotal * (1 - discount.percentage)
+  const [activeDiscount, setActiveDiscount] = useState<{
+    code: string;
+    percentage: number;
+  } | null>(null);
+
+  const discountedTotal = activeDiscount
+    ? cartTotal * (1 - activeDiscount.percentage)
     : cartTotal;
 
   const freeShippingRemaining = FREE_SHIPPING_THRESHOLD - cartTotal;
@@ -52,7 +56,7 @@ export function CartDrawer() {
           />
           {/* Drawer */}
           <motion.div
-            ref={trapRef}
+            ref={drawerRef}
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
@@ -172,8 +176,8 @@ export function CartDrawer() {
             {cartCount > 0 && (
               <div className="border-t border-stone-200 dark:border-stone-700 px-5 py-4 space-y-3">
                 <PromoCodeInput
-                  onApply={setDiscount}
-                  activeDiscount={discount}
+                  onApply={setActiveDiscount}
+                  activeDiscount={activeDiscount}
                 />
 
                 <div className="space-y-1.5">
@@ -185,13 +189,13 @@ export function CartDrawer() {
                       {formatCurrency(cartTotal)}
                     </span>
                   </div>
-                  {discount && (
+                  {activeDiscount && (
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-green-600 dark:text-green-400">
-                        Discount ({Math.round(discount.percentage * 100)}%)
+                        Discount ({Math.round(activeDiscount.percentage * 100)}%)
                       </span>
                       <span className="text-green-600 dark:text-green-400">
-                        -{formatCurrency(cartTotal * discount.percentage)}
+                        -{formatCurrency(cartTotal * activeDiscount.percentage)}
                       </span>
                     </div>
                   )}

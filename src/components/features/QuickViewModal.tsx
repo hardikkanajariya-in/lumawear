@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import { X, ShoppingBag, Check } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -18,7 +18,8 @@ interface QuickViewModalProps {
 }
 
 export function QuickViewModal({ product, onClose }: QuickViewModalProps) {
-  const trapRef = useFocusTrap(!!product);
+  const trapRef = useRef<HTMLDivElement>(null);
+  useFocusTrap(trapRef, !!product);
   const { addItem } = useCart();
   const { showToast } = useToast();
   const [selectedColor, setSelectedColor] = useState(0);
@@ -36,7 +37,6 @@ export function QuickViewModal({ product, onClose }: QuickViewModalProps) {
 
     const color = product.colors[selectedColor];
     addItem({
-      id: `${product.id}-${color.name}-${selectedSize}`,
       productId: product.id,
       name: product.name,
       slug: product.slug,
