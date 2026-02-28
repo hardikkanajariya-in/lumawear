@@ -1,0 +1,37 @@
+[
+  {
+    "id": "test-001",
+    "name": "Sophia Chen",
+    "location": "San Francisco, CA",
+    "avatarPhotoId": "photo-1544005313-94ddf0286df2",
+    "quote": "LumaWear has completely transformed how I approach my wardrobe. Every piece feels intentional, and the quality is genuinely exceptional. I have completely stopped fast-fashion shopping since discovering this brand."
+  },
+  {
+    "id": "test-002",
+    "name": "Marcus Rivera",
+    "location": "Brooklyn, NY",
+    "avatarPhotoId": "photo-1570295999919-56ceb5ecca61",
+    "quote": "The leather jacket is the single best clothing purchase I have ever made. Two years in and it looks even better than the day I bought it. LumaWear understands that true style is timeless."
+  },
+  {
+    "id": "test-003",
+    "name": "Emma Lindström",
+    "location": "Stockholm, Sweden",
+    "avatarPhotoId": "photo-1544005313-94ddf0286df2",
+    "quote": "As a designer myself, I am incredibly particular about quality and aesthetics. LumaWear nails both effortlessly. The minimal essentials collection is everything a capsule wardrobe should be."
+  },
+  {
+    "id": "test-004",
+    "name": "James Okafor",
+    "location": "London, UK",
+    "avatarPhotoId": "photo-1570295999919-56ceb5ecca61",
+    "quote": "I ordered the white sneakers on a whim and now own six LumaWear pieces. The attention to detail — from stitching to packaging — shows they genuinely care about the customer experience."
+  },
+  {
+    "id": "test-005",
+    "name": "Aiko Tanaka",
+    "location": "Tokyo, Japan",
+    "avatarPhotoId": "photo-1544005313-94ddf0286df2",
+    "quote": "Minimalism is central to Japanese aesthetics, and LumaWear captures that philosophy beautifully. Their pieces feel like they belong in a curated gallery — simple, purposeful, and exquisitely made."
+  }
+]

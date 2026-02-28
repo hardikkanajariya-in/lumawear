@@ -1,0 +1,50 @@
+{
+  "announcementBar": "Free shipping on orders over $99 — Shop Now",
+  "newsletterTitle": "Join the LumaWear Community",
+  "newsletterSubtitle": "Be the first to know about new drops, exclusive offers, and styling inspiration. No spam, ever.",
+  "newsletterCta": "Subscribe",
+  "sizeGuide": [
+    {
+      "size": "XS",
+      "chest": { "cm": 84, "inches": 33 },
+      "waist": { "cm": 66, "inches": 26 },
+      "hips": { "cm": 90, "inches": 35 },
+      "length": { "cm": 66, "inches": 26 }
+    },
+    {
+      "size": "S",
+      "chest": { "cm": 88, "inches": 34.5 },
+      "waist": { "cm": 71, "inches": 28 },
+      "hips": { "cm": 94, "inches": 37 },
+      "length": { "cm": 68, "inches": 27 }
+    },
+    {
+      "size": "M",
+      "chest": { "cm": 96, "inches": 38 },
+      "waist": { "cm": 79, "inches": 31 },
+      "hips": { "cm": 100, "inches": 39 },
+      "length": { "cm": 71, "inches": 28 }
+    },
+    {
+      "size": "L",
+      "chest": { "cm": 104, "inches": 41 },
+      "waist": { "cm": 86, "inches": 34 },
+      "hips": { "cm": 106, "inches": 42 },
+      "length": { "cm": 74, "inches": 29 }
+    },
+    {
+      "size": "XL",
+      "chest": { "cm": 112, "inches": 44 },
+      "waist": { "cm": 94, "inches": 37 },
+      "hips": { "cm": 112, "inches": 44 },
+      "length": { "cm": 76, "inches": 30 }
+    },
+    {
+      "size": "XXL",
+      "chest": { "cm": 120, "inches": 47 },
+      "waist": { "cm": 102, "inches": 40 },
+      "hips": { "cm": 118, "inches": 46 },
+      "length": { "cm": 79, "inches": 31 }
+    }
+  ]
+}

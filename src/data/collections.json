@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "summer-essentials",
+    "name": "Summer Essentials",
+    "description": "Light fabrics, effortless silhouettes, and sun-ready accessories. Everything you need for the warmest months, designed to keep you cool and looking sharp from beach to rooftop.",
+    "coverImage": "photo-1507525428034-b723cf961d3e",
+    "productIds": ["prod-002", "prod-003", "prod-007", "prod-008", "prod-013", "prod-015"]
+  },
+  {
+    "slug": "urban-edge",
+    "name": "Urban Edge",
+    "description": "Bold shapes, dark palettes, and unapologetic attitude. Our Urban Edge collection is built for those who set trends rather than follow them, designed to move through the city with purpose.",
+    "coverImage": "photo-1517841905240-472988babdf9",
+    "productIds": ["prod-001", "prod-004", "prod-012", "prod-014"]
+  },
+  {
+    "slug": "minimal-essentials",
+    "name": "Minimal Essentials",
+    "description": "The building blocks of a considered wardrobe. Neutral tones, premium fabrics, and timeless cuts that mix and match effortlessly. Less decisions, more style.",
+    "coverImage": "photo-1515886657613-9f3515b0c78f",
+    "productIds": ["prod-003", "prod-005", "prod-006", "prod-008", "prod-009", "prod-010", "prod-011"]
+  },
+  {
+    "slug": "bestsellers",
+    "name": "Bestsellers",
+    "description": "Our most-loved pieces, chosen by thousands of LumaWear customers. These are the designs that keep coming back because they never go out of style.",
+    "coverImage": "photo-1441984904996-e0b6ba687e04",
+    "productIds": ["prod-001", "prod-005", "prod-010", "prod-014"]
+  }
+]

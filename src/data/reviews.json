@@ -1,0 +1,41 @@
+{
+  "prod-001": [
+    { "id": "rev-001", "productId": "prod-001", "author": "Marcus T.", "rating": 5, "date": "2025-12-15", "title": "Worth every penny", "body": "I have been searching for the perfect leather jacket for years. This one exceeded all expectations — the leather is buttery soft yet substantial, and the fit is incredibly flattering. Already developing a beautiful patina after just a few weeks of wear.", "verified": true },
+    { "id": "rev-002", "productId": "prod-001", "author": "Sarah K.", "rating": 5, "date": "2025-11-28", "title": "A true investment piece", "body": "The quality of the leather and construction is on par with jackets costing twice as much. I sized down one for a slimmer fit and it is perfect. The quilted lining makes it comfortable even on cooler evenings.", "verified": true },
+    { "id": "rev-003", "productId": "prod-001", "author": "James L.", "rating": 4, "date": "2025-10-10", "title": "Great jacket, runs slightly large", "body": "Beautiful jacket with impeccable stitching. Only reason for 4 stars is the sizing runs a bit generous. I would recommend sizing down if you are between sizes. The leather quality is outstanding.", "verified": true }
+  ],
+  "prod-002": [
+    { "id": "rev-004", "productId": "prod-002", "author": "Elena R.", "rating": 5, "date": "2025-12-20", "title": "Most comfortable sneakers I own", "body": "These have become my daily go-to sneakers. The cushioning is phenomenal and they look great dressed up or down. The red color is vibrant and eye-catching without being overwhelming.", "verified": true },
+    { "id": "rev-005", "productId": "prod-002", "author": "David M.", "rating": 4, "date": "2025-11-15", "title": "Solid all-rounders", "body": "Comfortable right out of the box with no break-in period. The only minor issue is the insole could be a bit more supportive for long walks, but overall these are excellent sneakers for the price.", "verified": false }
+  ],
+  "prod-003": [
+    { "id": "rev-006", "productId": "prod-003", "author": "Maya P.", "rating": 5, "date": "2026-01-05", "title": "The best basic tee, period", "body": "I have bought six of these in different colors now. The weight of the cotton is perfect — substantial enough to drape well but not heavy. After dozens of washes, they still look brand new. These are worth every cent.", "verified": true },
+    { "id": "rev-007", "productId": "prod-003", "author": "Alex W.", "rating": 5, "date": "2025-12-18", "title": "Finally, a tee that fits", "body": "The relaxed fit is exactly right — not boxy, not tight. The organic cotton feels premium and the pre-washing means zero shrinkage. I am gradually replacing all my old tees with these.", "verified": true },
+    { "id": "rev-008", "productId": "prod-003", "author": "Chris N.", "rating": 4, "date": "2025-11-22", "title": "Great quality, limited colors", "body": "The quality is undeniable — this is the best cotton tee I have ever worn. I just wish there were more color options available. Would love to see some muted earth tones added to the range.", "verified": true }
+  ],
+  "prod-005": [
+    { "id": "rev-009", "productId": "prod-005", "author": "Isabella F.", "rating": 5, "date": "2026-01-10", "title": "Gets better with age", "body": "Three months in and this bag has developed the most gorgeous patina. The vegetable-tanned leather is clearly high quality and the construction is robust. I carry my laptop, water bottle, and daily essentials with room to spare.", "verified": true },
+    { "id": "rev-010", "productId": "prod-005", "author": "Tom B.", "rating": 5, "date": "2025-12-30", "title": "A bag for life", "body": "Bought this as a gift for my wife and she hasn't used another bag since. The leather smells amazing and the magnetic closure is surprisingly secure. Worth the investment.", "verified": true }
+  ],
+  "prod-006": [
+    { "id": "rev-011", "productId": "prod-006", "author": "Nathan S.", "rating": 5, "date": "2025-12-08", "title": "Understated elegance", "body": "This watch perfectly captures the less-is-more philosophy. The sapphire crystal is scratch-free after months of daily wear, and the leather strap has broken in beautifully. Gets more compliments than watches I have owned that cost ten times as much.", "verified": true },
+    { "id": "rev-012", "productId": "prod-006", "author": "Rachel H.", "rating": 4, "date": "2025-11-18", "title": "Beautiful but strap could be softer", "body": "The watch itself is stunning — the dial is clean and legible, and the size is perfect for my wrist. The leather strap was a bit stiff initially but has softened nicely after a couple of weeks of wear.", "verified": true }
+  ],
+  "prod-009": [
+    { "id": "rev-013", "productId": "prod-009", "author": "Michael C.", "rating": 5, "date": "2026-01-15", "title": "Perfect everyday chinos", "body": "These are the gold standard for chinos. The Japanese cotton has a beautiful hand feel, and the slight stretch makes them incredibly comfortable for a full day at the office. The tailored cut looks sharp without feeling restrictive.", "verified": true },
+    { "id": "rev-014", "productId": "prod-009", "author": "Priya D.", "rating": 4, "date": "2025-12-05", "title": "Great fit, great fabric", "body": "The quality of the twill is noticeably superior to other brands I have tried. The sand color is a versatile neutral that goes with everything. Sizing is true to standard chino measurements.", "verified": true }
+  ],
+  "prod-010": [
+    { "id": "rev-015", "productId": "prod-010", "author": "Daniel K.", "rating": 5, "date": "2026-01-20", "title": "The perfect white sneaker exists", "body": "I have been through dozens of white sneakers trying to find the perfect pair, and these are it. The nappa leather is incredibly soft, the Italian sole has just the right amount of grip, and the minimalist design goes with absolutely everything.", "verified": true },
+    { "id": "rev-016", "productId": "prod-010", "author": "Sophie L.", "rating": 5, "date": "2025-12-28", "title": "Pure quality", "body": "You can feel the difference in quality the moment you put these on. The leather molds to your feet and the construction is impeccable. Yes, they are an investment, but they are worth every dollar.", "verified": true },
+    { "id": "rev-017", "productId": "prod-010", "author": "Omar A.", "rating": 5, "date": "2025-11-30", "title": "Replaced all my sneakers", "body": "Three months of daily wear and these still look nearly new. The nappa leather is easy to clean and develops a beautiful character over time. Easily the best sneakers I have ever owned.", "verified": true }
+  ],
+  "prod-014": [
+    { "id": "rev-018", "productId": "prod-014", "author": "Jake R.", "rating": 5, "date": "2026-01-08", "title": "Incredible denim quality", "body": "The selvedge line on the cuff is a beautiful detail that shows the craftsmanship. These jeans are stiff at first but after a month of wear, they have molded perfectly to my body. The fading is starting to show my unique wear patterns.", "verified": true },
+    { "id": "rev-019", "productId": "prod-014", "author": "Emma S.", "rating": 4, "date": "2025-12-12", "title": "True raw denim experience", "body": "If you know raw denim, you know what to expect — stiff at first, then increasingly comfortable and personal. The 14oz weight is substantial without being uncomfortable. Be prepared for some indigo transfer onto light-colored items initially.", "verified": true }
+  ],
+  "prod-011": [
+    { "id": "rev-020", "productId": "prod-011", "author": "Victoria P.", "rating": 5, "date": "2026-02-01", "title": "Luxuriously soft", "body": "The cashmere blend is incredibly soft and warm without being bulky. This sweater looks polished enough for the office but comfortable enough for weekends at home. The camel color is gorgeous and goes with everything in my wardrobe.", "verified": true },
+    { "id": "rev-021", "productId": "prod-011", "author": "Robert F.", "rating": 5, "date": "2025-12-25", "title": "Perfect winter essential", "body": "The fabric quality sets this apart from other sweaters at this price point. Warm, soft, and the fit is spot-on. I have hand-washed it several times and it has kept its shape perfectly.", "verified": true }
+  ]
+}

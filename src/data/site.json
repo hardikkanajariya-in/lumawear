@@ -1,0 +1,53 @@
+{
+  "brandName": "LumaWear",
+  "tagline": "Minimal. Intentional. Yours.",
+  "description": "LumaWear is a premium fashion brand dedicated to minimal, intentional design. We craft modern essentials that transcend seasons and trends.",
+  "navItems": [
+    { "label": "New", "href": "/shop?sort=newest" },
+    { "label": "Women", "href": "/shop?category=women" },
+    { "label": "Men", "href": "/shop?category=men" },
+    { "label": "Collections", "href": "/collections/summer-essentials" },
+    { "label": "Sale", "href": "/shop?sale=true" }
+  ],
+  "footerColumns": [
+    {
+      "title": "Shop",
+      "links": [
+        { "label": "New Arrivals", "href": "/shop?sort=newest" },
+        { "label": "Bestsellers", "href": "/shop?badge=Bestseller" },
+        { "label": "Sale", "href": "/shop?sale=true" },
+        { "label": "Collections", "href": "/collections/summer-essentials" },
+        { "label": "Gift Cards", "href": "/shop" }
+      ]
+    },
+    {
+      "title": "Help",
+      "links": [
+        { "label": "Contact Us", "href": "/contact" },
+        { "label": "Shipping & Returns", "href": "/shipping" },
+        { "label": "Size Guide", "href": "/shop" },
+        { "label": "FAQ", "href": "/contact" },
+        { "label": "Order Tracking", "href": "/account" }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        { "label": "About Us", "href": "/about" },
+        { "label": "Sustainability", "href": "/about" },
+        { "label": "Careers", "href": "/about" },
+        { "label": "Privacy Policy", "href": "/privacy" },
+        { "label": "Terms of Service", "href": "/terms" }
+      ]
+    }
+  ],
+  "socials": [
+    { "platform": "Instagram", "url": "https://instagram.com/lumawear" },
+    { "platform": "Twitter", "url": "https://twitter.com/lumawear" },
+    { "platform": "Facebook", "url": "https://facebook.com/lumawear" },
+    { "platform": "Pinterest", "url": "https://pinterest.com/lumawear" }
+  ],
+  "announcementText": "Free shipping on orders over $99 — Shop Now",
+  "creditText": "Created by",
+  "creditUrl": "https://hardikkanajariya.in"
+}

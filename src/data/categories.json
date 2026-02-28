@@ -1,0 +1,7 @@
+[
+  { "slug": "tops", "name": "Tops", "count": 5, "image": "photo-1521572163474-6864f9cf17ab" },
+  { "slug": "bottoms", "name": "Bottoms", "count": 2, "image": "photo-1624378439575-d8705ad7ae80" },
+  { "slug": "outerwear", "name": "Outerwear", "count": 2, "image": "photo-1551028719-00167b16eac5" },
+  { "slug": "footwear", "name": "Footwear", "count": 2, "image": "photo-1542291026-7eec264c27ff" },
+  { "slug": "accessories", "name": "Accessories", "count": 4, "image": "photo-1524592094714-0f0654e20314" }
+]

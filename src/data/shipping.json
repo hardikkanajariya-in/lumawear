@@ -1,0 +1,32 @@
+{
+  "methods": [
+    {
+      "id": "standard",
+      "name": "Standard Shipping",
+      "price": 0,
+      "estimatedDays": "5–7 business days",
+      "description": "Free on orders over $99. Reliable ground shipping with full tracking."
+    },
+    {
+      "id": "express",
+      "name": "Express Shipping",
+      "price": 14.99,
+      "estimatedDays": "2–3 business days",
+      "description": "Priority handling and expedited delivery with real-time tracking."
+    },
+    {
+      "id": "overnight",
+      "name": "Overnight Shipping",
+      "price": 29.99,
+      "estimatedDays": "Next business day",
+      "description": "Order by 2 PM EST for guaranteed next-business-day delivery."
+    }
+  ],
+  "countries": [
+    "United States", "Canada", "United Kingdom", "Australia", "Germany",
+    "France", "Japan", "Netherlands", "Sweden", "Denmark", "Norway",
+    "Italy", "Spain", "Belgium", "Switzerland", "Austria", "Ireland",
+    "New Zealand", "Singapore", "South Korea"
+  ],
+  "returnPolicy": "We want you to love every piece. If something is not right, you have 30 days from delivery to return any unworn item in its original condition with tags attached. Returns are free within the US — simply use the prepaid label included with your order. International returns ship at the customer's expense. Refunds are processed within 5–7 business days of receiving your return. Exchanges are subject to availability. Final sale items cannot be returned or exchanged."
+}

@@ -1,0 +1,70 @@
+{
+  "privacyPolicy": [
+    {
+      "title": "Information We Collect",
+      "content": "When you visit LumaWear, we collect certain information about your device, your interaction with our store, and the information necessary to process your purchases. We may also collect additional information if you contact us for customer support. We collect device information using cookies, log files, and similar technologies. When you make a purchase, we collect your name, billing address, shipping address, payment information (including credit card numbers), email address, and phone number."
+    },
+    {
+      "title": "How We Use Your Information",
+      "content": "We use the information we collect to fulfill orders and provide customer service, to communicate with you about products, services, promotions, and events, to improve and optimize our store experience, to detect and prevent fraud and security threats, and to comply with legal obligations. We process your personal information for these purposes based on our legitimate business interests, the performance of a contract with you, compliance with legal obligations, and/or your consent."
+    },
+    {
+      "title": "Sharing Your Information",
+      "content": "We share your personal information with third parties to help us provide our services and fulfill our obligations to you. For example, we share information with shipping carriers to deliver your orders, payment processors to securely handle transactions, and analytics providers to help us understand how our store is used. We do not sell your personal information to third parties for their marketing purposes."
+    },
+    {
+      "title": "Data Retention",
+      "content": "We retain your personal information for as long as necessary to provide you with our services and as described in this Privacy Policy. We also retain and use your information to comply with legal obligations, resolve disputes, prevent fraud, and enforce our agreements. When we no longer need your personal information, we securely delete or anonymize it."
+    },
+    {
+      "title": "Your Rights",
+      "content": "Depending on your location, you may have certain rights regarding your personal information, including the right to access the personal data we hold about you, the right to request correction of inaccurate data, the right to request deletion of your data, and the right to opt out of marketing communications. To exercise these rights, please contact us at privacy@lumawear.com."
+    },
+    {
+      "title": "Cookies",
+      "content": "We use cookies and similar tracking technologies to track activity on our store and hold certain information. Cookies are files with a small amount of data that are sent to your browser from a website and stored on your device. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our store."
+    },
+    {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or for operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the effective date. Your continued use of our store after changes are posted constitutes your acceptance of the updated policy."
+    },
+    {
+      "title": "Contact Us",
+      "content": "If you have questions about this Privacy Policy or our data practices, please contact us at privacy@lumawear.com or write to us at LumaWear, 123 Fashion Avenue, Suite 400, New York, NY 10001, United States."
+    }
+  ],
+  "termsOfService": [
+    {
+      "title": "Agreement to Terms",
+      "content": "By accessing or using the LumaWear website and services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law."
+    },
+    {
+      "title": "Products and Pricing",
+      "content": "All products displayed on LumaWear are subject to availability. We reserve the right to discontinue any product at any time without notice. Prices for our products are subject to change without notice. We make every effort to display accurate pricing information, but errors may occur. In the event of a pricing error, we reserve the right to cancel any orders placed at the incorrect price."
+    },
+    {
+      "title": "Orders and Payment",
+      "content": "When you place an order through our store, you are making an offer to purchase the products you have selected. We reserve the right to accept or decline your order for any reason, including product availability, errors in product or pricing information, or suspected fraudulent activity. Payment must be received before orders are processed. We accept major credit cards and other payment methods as displayed at checkout."
+    },
+    {
+      "title": "Shipping and Delivery",
+      "content": "We ship to select countries worldwide. Shipping times and costs vary based on your location and chosen shipping method. Estimated delivery times are not guaranteed and may be affected by factors beyond our control, including customs processing for international orders. Risk of loss and title for items purchased pass to you upon delivery to the carrier."
+    },
+    {
+      "title": "Returns and Refunds",
+      "content": "We accept returns of unworn, unwashed items in their original condition with all tags attached within 30 days of delivery. Returns are free for domestic orders. International return shipping is the responsibility of the customer. Refunds will be processed to the original payment method within 5-7 business days of receiving the returned item. Sale items marked as final sale cannot be returned or exchanged."
+    },
+    {
+      "title": "Intellectual Property",
+      "content": "All content on the LumaWear website — including text, graphics, logos, images, product descriptions, and software — is the property of LumaWear or its content suppliers and is protected by international copyright laws. You may not reproduce, distribute, modify, create derivative works of, publicly display, or otherwise use any content without our express written permission."
+    },
+    {
+      "title": "Limitation of Liability",
+      "content": "LumaWear shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use our services. Our total liability for any claims arising from or related to our services shall not exceed the amount you paid for the applicable product or service. This limitation applies to all causes of action, whether in contract, tort, or otherwise."
+    },
+    {
+      "title": "Governing Law",
+      "content": "These Terms of Service shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law provisions. Any legal action or proceeding arising out of or related to these terms shall be brought exclusively in the state or federal courts located in New York County."
+    }
+  ]
+}
