@@ -5,7 +5,6 @@ import { Providers } from "@/providers";
 import { Header } from "@/components/layout";
 import { Footer } from "@/components/layout";
 import { CartDrawer } from "@/components/features";
-import { DemoBanner } from "@/components/features";
 import { BackToTop } from "@/components/layout";
 import "./globals.css";
 
@@ -71,7 +70,6 @@ export default function RootLayout({
           >
             Skip to content
           </a>
-          <DemoBanner />
           <Header navItems={siteData.navItems} />
           <main id="main-content" className="min-h-screen">
             {children}
